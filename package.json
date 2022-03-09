@@ -1,6 +1,6 @@
 {
   "name": "x-seolint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "检验关键字出现次数",
   "bin": {
     "x-seolint": "bin/index.js"
@@ -15,7 +15,7 @@
     "url": "https://github.com/xsjohn0306/x-seolint/issues"
   },
   "homepage": "https://github.com/xsjohn0306/x-seolint#readme",
-  "devDependencies": {
+  "dependencies": {
     "debug": "4.3.3",
     "lilconfig": "2.0.4",
     "lodash": "4.17.21"
