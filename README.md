@@ -1,4 +1,4 @@
-# seolint
+# x-seolint
 
 检验关键字出现次数
 
@@ -12,7 +12,7 @@
       "pre-commit": "lint-staged"
     }
   },
-  "seolint": {
+  "x-seolint": {
     "/Fist/templates/User/View/active_list.html": {
       "二维码": 2
     },
@@ -21,7 +21,7 @@
     }
   },
   "lint-staged": {
-    "./Fist/**/*.{html,tpl}": "seolint"
+    "./Fist/**/*.{html,tpl}": "x-seolint"
   }
 }
 ```

@@ -6,12 +6,12 @@ const createDebug = require('debug');
 const { lilconfig } = require('lilconfig');
 const { slice, map, forEach } = require('lodash');
 
-const debug = createDebug('seolint');
+const debug = createDebug('x-seolint');
 const jsonParse = (path, content) => {
   return JSON.parse(content);
 };
 const explorer = lilconfig(
-  'seolint',
+  'x-seolint',
   {
     searchPlaces: ['package.json'],
     loaders: { '.json': jsonParse },

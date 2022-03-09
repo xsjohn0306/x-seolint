@@ -1,20 +1,20 @@
 {
-  "name": "seolint",
+  "name": "x-seolint",
   "version": "1.0.0",
   "description": "检验关键字出现次数",
   "bin": {
-    "seolint": "bin/index.js"
+    "x-seolint": "bin/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xsjohn0306/seolint.git"
+    "url": "git+https://github.com/xsjohn0306/x-seolint.git"
   },
   "author": "xsjohn0306",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/xsjohn0306/seolint/issues"
+    "url": "https://github.com/xsjohn0306/x-seolint/issues"
   },
-  "homepage": "https://github.com/xsjohn0306/seolint#readme",
+  "homepage": "https://github.com/xsjohn0306/x-seolint#readme",
   "devDependencies": {
     "debug": "4.3.3",
     "lilconfig": "2.0.4",
